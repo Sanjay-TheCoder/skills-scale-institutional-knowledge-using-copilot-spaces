@@ -78,237 +78,704 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 ## QA / Quality Assurance Lead
 
 ### Role Summary
-The QA Lead ensures product quality by defining testing strategy, validating acceptance criteria, and identifying release risks before work reaches production.
+The QA Lead defines the testing strategy and ensures that products meet functional, usability, and release quality standards before they are accepted by stakeholders.
 
 ### Responsibilities
-- Define test plans, quality gates, and regression coverage
-- Validate feature readiness against acceptance criteria and business goals
-- Partner with developers and product teams to triage defects and root causes
-- Coordinate user acceptance testing and release verification
-- Track quality trends across milestones and releases
+- Own the test strategy, test plans, and release validation checklist
+- Partner with developers and product owners on acceptance criteria and regression risks
+- Review defects, triage severity, and track issue closure
+- Coordinate manual and automated testing for milestones and releases
+- Validate that user stories are ready for sign-off and production readiness
 
 ### Goals
-- Reduce escaped defects and customer-facing issues
-- Improve confidence in release readiness and stability
-- Create a shared quality bar across teams and projects
+- Reduce quality escape risk
+- Improve release confidence and product stability
+- Align testing effort with product priorities and customer expectations
 
 ### Typical Communication
-- Test strategy reviews and quality sign-off meetings
-- Defect triage with engineering and product partners
-- Release readiness updates with PMs and stakeholders
+- Test planning sessions and release readiness reviews
+- Defect triage and bug severity discussions
+- Weekly QA status updates with PM, engineering, and stakeholders
 
 ### Interaction with Existing Roles
-- Works closely with Developers to review quality risks and validate fixes
-- Supports Product Managers by confirming the implemented work meets acceptance criteria
-- Informs Project Managers about release readiness and blockers that affect milestone timing
+- Works closely with Developers to define test coverage and bug reproduction steps
+- Aligns with Product Managers on acceptance criteria and release quality gates
+- Reports quality risks to the Project Manager so schedule and scope trade-offs are visible
+- Supports the Stakeholder Sponsor with evidence for go/no-go decisions at milestone checkpoints
 
 ---
 
 ## Technical Architect / Tech Lead
 
 ### Role Summary
-The Technical Architect or Tech Lead guides technical direction, resolves design trade-offs, and helps the team deliver solutions that are scalable, maintainable, and aligned with platform constraints.
+The Technical Architect or Tech Lead shapes the system design, technical standards, and solution direction so the team can deliver scalable and maintainable work.
 
 ### Responsibilities
-- Define or validate technical architecture and design patterns
-- Identify technical dependencies, risks, and integration constraints early
-- Review implementation decisions to ensure maintainability and scalability
-- Support developers with technical guidance and escalation paths
-- Align engineering choices with product priorities and delivery timelines
+- Guide technical design, architecture decisions, and integration patterns
+- Identify technical risks, dependencies, and performance concerns early
+- Ensure solutions align with platform standards, scalability goals, and maintainability
+- Mentor developers and support design and code review quality
+- Balance delivery speed with technical debt and long-term sustainability
 
 ### Goals
-- Deliver solutions that are robust, extensible, and operationally sound
-- Reduce unnecessary rework and architectural drift
-- Ensure the team can execute confidently and predictably
+- Create a coherent technical direction across the project
+- Reduce avoidable rework and architectural drift
+- Enable safe, scalable delivery as the team grows
 
 ### Typical Communication
 - Architecture reviews and design discussions
-- Technical risk updates in planning and weekly syncs
-- Guidance to developers during implementation and incident response
+- Technical risk reviews during planning and execution
+- Coordination with engineering leads, PMs, and stakeholders on technical trade-offs
 
 ### Interaction with Existing Roles
-- Partners with Developers on technical decisions and implementation quality
-- Advises Product Managers on feasibility, timing, and trade-offs
-- Works with Project Managers to flag cross-team dependencies or technical blockers
+- Partner with Developers to translate product requirements into technical implementation plans
+- Works with Product Managers to assess feasibility, sequencing, and trade-offs against roadmap goals
+- Informs Project Managers about dependencies, risks, and delivery constraints
+- Supports the QA Lead by identifying risk areas that need deeper validation and testing
 
 ---
 
 ## Scrum Master / Iteration Facilitator
 
 ### Role Summary
-The Scrum Master or Iteration Facilitator helps the team work effectively, removes blockers, and strengthens healthy delivery practices without becoming the owner of the work itself.
+The Scrum Master or Iteration Facilitator helps the team work effectively by coaching agile practices, improving flow, and removing barriers to delivery.
 
 ### Responsibilities
-- Facilitate sprint planning, standups, retrospectives, and backlog refinement
-- Help the team remove impediments and improve workflow visibility
-- Support adoption of agile practices and team rituals
-- Coach on prioritization, planning discipline, and continuous improvement
-- Surface delivery risks before they affect commitments
+- Facilitate sprint planning, daily standups, and retrospectives
+- Help the team maintain clear priorities, predictable delivery, and healthy collaboration
+- Identify blockers, dependencies, and process friction that slow execution
+- Coach the team on agile rituals, story quality, and continuous improvement
+- Support transparency through visible work tracking and decisions
 
 ### Goals
-- Improve team flow, predictability, and collaboration
-- Keep the delivery process lightweight and effective
-- Strengthen accountability without creating unnecessary ceremony
+- Improve team effectiveness and delivery consistency
+- Create a healthier, more predictable rhythm of work
+- Reduce friction so developers and PMs can focus on value creation
 
 ### Typical Communication
-- Sprint ceremonies and facilitation sessions
-- Team check-ins for blockers, dependencies, and escalation needs
-- Retrospective follow-up and process improvement tracking
+- Sprint ceremonies, standups, and retrospectives
+- Team coaching and process improvement discussions
+- Escalation updates with PMs for blockers that require cross-functional action
 
 ### Interaction with Existing Roles
-- Supports Project Managers by improving team execution rhythm and stakeholder transparency
-- Works with Developers to maintain smooth sprint flow and backlog health
-- Collaborates with Product Managers to ensure priorities are clear and manageable
+- Supports Developers by improving workflow, reducing confusion, and protecting focus time
+- Works with Project Managers to surface risks, dependency issues, and delivery bottlenecks
+- Helps Product Managers refine backlog readiness and prioritization through better sprint flow
+- Coordinates with Stakeholder Sponsors when delivery changes affect strategic milestones or commitments
 
 ---
 
 ## Stakeholder / Executive Sponsor
 
 ### Role Summary
-The Executive Sponsor or Stakeholder representative provides strategic context, approves major milestones, and helps resolve decisions that require business-level alignment.
+The Executive Sponsor provides strategic context, business sponsorship, and final decision support for major milestones, trade-offs, and escalations.
 
 ### Responsibilities
-- Provide business context, sponsorship, and priority framing
-- Approve key milestones, budget decisions, and major scope changes
-- Escalate unresolved dependencies or strategic trade-offs
-- Represent stakeholder interests and expected business outcomes
-- Help align the project with broader organizational goals
+- Represent the business case and strategic priorities for the initiative
+- Approve key milestones, scope trade-offs, and go/no-go decisions
+- Help resolve escalated issues that require broader organizational support
+- Provide sponsorship for cross-team dependencies and resource decisions
+- Ensure the project stays aligned with company goals and measurable outcomes
 
 ### Goals
-- Ensure the initiative remains valuable, prioritized, and business-aligned
-- Support timely decisions and sponsorship for strategic work
-- Maintain confidence in project outcomes and stakeholder trust
+- Keep delivery aligned with business value and strategic importance
+- Remove organizational barriers that slow execution
+- Support confident, informed decisions at key checkpoints
 
 ### Typical Communication
-- Steering meetings, milestone reviews, and executive check-ins
-- Business updates and sponsor-level decision requests
-- Escalation communications during major risk or timing issues
+- Steering reviews, milestone governance, and executive updates
+- Decisions on scope, urgency, and funding or resourcing trade-offs
+- Escalations when the team needs decision support or sponsor-level intervention
 
 ### Interaction with Existing Roles
-- Works with Product Managers to confirm business objectives and priorities
-- Provides strategic direction to Project Managers on scope and milestone approval
-- Supports Developers and technical leads by confirming the value and urgency of trade-offs
+- Partners with Product Managers to confirm priorities and validate business outcomes
+- Receives status and risk insights from the Project Manager and PM team
+- Uses QA, technical, and delivery signals to support milestone approvals and release decisions
+- Provides direction to the team when decisions have broader organizational impact
 
 ---
 
 ## Design / UX Lead
 
 ### Role Summary
-The Design or UX Lead ensures the product experience is usable, accessible, and aligned with customer needs and brand expectations.
+The Design/UX Lead ensures that solutions are intuitive, accessible, and aligned with customer needs and the product experience vision.
 
 ### Responsibilities
-- Define user experience strategy, design direction, and interaction patterns
-- Ensure accessibility, usability, and consistency across flows and components
-- Collaborate with product and engineering on feasibility and implementation details
-- Maintain alignment with design systems, customer feedback, and usability goals
-- Review product experience before release to catch gaps early
+- Define user flows, interaction patterns, and product experience standards
+- Align design work with accessibility, usability, and brand requirements
+- Partner with Product Managers and Developers on feature clarity and implementation feasibility
+- Review design quality, edge cases, and customer pain points
+- Support decision-making with customer-centric evidence and design principles
 
 ### Goals
-- Deliver products that are intuitive, inclusive, and valuable to users
-- Align design quality with product outcomes and customer expectations
-- Reduce friction in the end-to-end experience
+- Improve product usability and customer satisfaction
+- Ensure consistent, inclusive, and accessible experiences
+- Deliver solutions that are both valuable and easy to use
 
 ### Typical Communication
-- Design reviews, user journey discussions, and usability feedback loops
-- Cross-functional workshops with product and engineering teams
-- Stakeholder updates on customer experience risks and improvements
+- UX reviews, customer journey workshops, and design critiques
+- Collaboration with PM and engineering on feature definition and readiness
+- Design handoff and implementation feedback loops during delivery
 
 ### Interaction with Existing Roles
-- Helps Product Managers validate user needs and feature fit
-- Partners with Developers to ensure designs are implemented consistently and accessibly
-- Informs Project Managers about design dependencies or user experience risks that could affect release timing
+- Works with Product Managers to turn user needs into clear experience goals and priorities
+- Collaborates with Developers to ensure design intent is implemented accurately and accessibly
+- Shares user experience risks and design trade-offs with the Project Manager and QA Lead
+- Helps ensure customer success and release quality align with the intended experience
 
 ---
 
 ## DevOps / Release Engineer
 
 ### Role Summary
-The DevOps or Release Engineer manages the delivery pipeline, deployment automation, environment reliability, and operational readiness for each release.
+The DevOps or Release Engineer manages the delivery pipeline, infrastructure, and deployment reliability needed to ship software safely and consistently.
 
 ### Responsibilities
-- Maintain CI/CD pipelines, deployment automation, and environment configuration
-- Support reliable releases, rollback readiness, and infrastructure health
-- Monitor deployment risks and production readiness signals
-- Collaborate with engineering teams on automation and observability standards
-- Help maintain security, reliability, and operational consistency across environments
+- Maintain CI/CD pipelines, release automation, and environment readiness
+- Support deployment planning, rollout sequencing, and rollback preparation
+- Improve observability, environment consistency, and operational health
+- Coordinate with engineering and QA on staging, smoke tests, and release validation
+- Help teams reduce deployment risk and improve recovery speed when issues occur
 
 ### Goals
-- Reduce release friction and deployment risk
-- Improve delivery speed without sacrificing stability
-- Create a reliable operating environment for product teams
+- Increase deployment confidence and release reliability
+- Reduce manual operational effort and release bottlenecks
+- Improve system resilience and operational visibility
 
 ### Typical Communication
-- Release planning and deployment readiness reviews
-- Incident and production support coordination
-- Infrastructure or pipeline issue updates with engineering partners
+- Release planning, deployment readiness, and production check-ins
+- Incident coordination and rollback decision support
+- Pipeline and environment status reporting with engineering and PM stakeholders
 
 ### Interaction with Existing Roles
-- Works with Developers to ensure automated builds, test gates, and deployability
-- Collaborates with QA to validate release quality and smoke-test execution
-- Supports Project Managers and Product Managers with release timing, rollback readiness, and risk communication
+- Supports Developers by enabling smooth integration, build, and deployment workflows
+- Coordinates with QA Lead on staging validation and smoke test execution
+- Works with Project Managers on deployment windows, release risk, and communication timing
+- Helps Security Champion and Product teams ensure controls are in place before production rollout
 
 ---
 
 ## Security Champion
 
 ### Role Summary
-The Security Champion ensures security requirements are considered throughout the lifecycle, from design and development through deployment and ongoing operations.
+The Security Champion ensures that security, privacy, and compliance requirements are considered throughout planning, implementation, and release.
 
 ### Responsibilities
-- Review features, architecture, and dependencies for security risk
-- Define and support secure development practices and compliance requirements
-- Partner with engineering to remediate vulnerabilities and improve controls
-- Help assess security trade-offs during planning and release reviews
-- Support incident prevention and secure deployment standards
+- Identify security risks, vulnerabilities, and compliance considerations early
+- Partner with engineering and product teams on secure design and testing practices
+- Review features for privacy, authentication, authorization, and data protection concerns
+- Support secure deployment practices and threat mitigation planning
+- Help the team maintain an acceptable security posture before release
 
 ### Goals
-- Reduce security exposure and compliance risk
-- Embed security into normal delivery rather than treating it as a late-stage check
-- Increase confidence in system resilience and trustworthiness
+- Reduce security and compliance risk
+- Build secure-by-default practices into delivery workflows
+- Protect customer trust and organizational reputation
 
 ### Typical Communication
-- Security review meetings and risk assessments
-- Developers’ design check-ins and remediation discussions
-- Leadership updates on security posture and critical concerns
+- Risk reviews, security checkpoints, and compliance discussions
+- Escalation for urgent issues or high-risk vulnerabilities
+- Cross-functional coordination with engineering, QA, and PM stakeholders
 
 ### Interaction with Existing Roles
-- Collaborates with Developers to apply secure coding patterns and validation checks
-- Advises Product Managers and Project Managers on risk, timing, and mitigation needs
-- Works with DevOps and QA to ensure deployment pipelines and release quality support security standards
+- Advises Developers and Technical Architects on secure implementation approaches
+- Works with QA Lead to include security validation in test plans and release checks
+- Supports Project Managers in risk tracking and escalation for security-related blockers
+- Connects with Stakeholder Sponsors when security issues affect go/no-go decisions or external obligations
 
 ---
 
 ## Customer Success / Support Lead
 
 ### Role Summary
-The Customer Success or Support Lead represents the customer voice after release, ensuring that product value, support readiness, and feedback loops are connected back into the delivery process.
+The Customer Success or Support Lead represents the post-release customer experience and ensures the team is prepared to support adoption, issues, and ongoing value realization.
 
 ### Responsibilities
-- Capture customer feedback, pain points, and support trends
-- Help define support readiness requirements and service expectations
-- Coordinate release communication with customer-facing teams
-- Identify post-launch issues, usage gaps, and customer impact
-- Feed lessons learned back into product planning and backlog prioritization
+- Gather customer feedback, support trends, and release impact signals
+- Partner with Product and PM teams on adoption, usability, and issue prioritization
+- Help define support readiness, documentation, and escalation paths
+- Ensure teams are prepared to respond to customer-facing incidents and service concerns
+- Connect product delivery outcomes to real customer outcomes after release
 
 ### Goals
-- Improve adoption, retention, and customer satisfaction
-- Ensure support teams are prepared for new releases or changes
-- Close the loop between deployment and customer outcomes
+- Improve customer satisfaction and retention
+- Reduce friction after release
+- Ensure product value is realized and sustained in real-world use
 
 ### Typical Communication
-- Customer feedback reviews and support escalations
-- Release readiness briefings with product and support teams
-- Post-release impact reports and continuous improvement discussions
+- Customer feedback loops, support triage, and post-release reviews
+- Product and release readiness discussions with PMs and stakeholders
+- Escalation of critical customer-impacting issues and recurring support themes
 
 ### Interaction with Existing Roles
-- Informs Product Managers with customer evidence and support trends
-- Helps Project Managers understand operational readiness and rollout risks
-- Provides Developers and QA with real-world product issues that require follow-up or improvement
+- Feeds customer needs and pain points back to Product Managers and the backlog
+- Provides release context to QA and DevOps teams so support readiness is considered before launch
+- Helps Project Managers communicate release readiness and operational impact to stakeholders
+- Supports Executive Sponsors by showing whether outcomes are meeting customer expectations and business value goals
 
 ---
 
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
-- Together, these roles clarify decision ownership, communication paths, and accountability across the full OctoAcme project lifecycle.
+- Together with the core roles, these personas help clarify accountability across planning, delivery, quality, security, release, and customer impact.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
